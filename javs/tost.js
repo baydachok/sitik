@@ -15,7 +15,7 @@ let questions = [
 	},
     {
 		text: 'Кем, по словам Данилы Багрова, он служил в армии?',
-		right: 'Писарем в штабе',
+		right: 'писарем в штабе',
 	},
     {
 		text: 'Какое прозвище было у Берта — знакомого Мэри Поппинс?',
@@ -44,7 +44,7 @@ button.addEventListener('click', function() {
 		input.classList.remove('correct');
 		input.classList.remove('incorrect');
 		
-		if (input.value == input.dataset.right) {
+		if (input.value.toLowerCase() == input.dataset.right.toLowerCase()) {
 			input.classList.add('correct');
 		} else {
 			input.classList.add('incorrect');
