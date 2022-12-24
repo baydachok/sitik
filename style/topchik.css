@@ -1,9 +1,9 @@
  .h3,
  h3 {
-     background: rgb(191, 165, 116);
+     background: rgba(17, 111, 189, 0.753);
      font-size: 20px;
      font-weight: 400;
-     color: #654b20;
+     color: #202d65;
      border-radius: 1px;
      padding: 0 15px 0 17px;
      margin: 30px 0 0 0;
@@ -18,7 +18,7 @@
      float: right;
      margin: -2px -12px 0 0;
      padding: 12px;
-     color: #bebebe;
+     color: #1f0dbe;
      font-size: 20px;
      cursor: pointer
  }
@@ -83,8 +83,8 @@
      position: absolute;
      width: 100%;
      text-align: left;
-     background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+     background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
  }
 
  #content {
@@ -96,9 +96,9 @@
      grid-template-rows: auto;
      padding: 0 0 30px 0;
      margin-top: 86px;
-     background: #d4cea1
+     background: rgb(238,174,202);
+     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
  }
-
  #col2 {
      box-sizing: border-box;
      overflow: hidden;

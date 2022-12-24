@@ -471,7 +471,8 @@ blockquote:after {
 .form {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -529,7 +530,8 @@ blockquote:after {
     padding-right: 20px;
     padding-bottom: 50px;
     border-radius: 10px;
-    background: Linear-gradient(to left top, #0f9b90, #b1d08e);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(212,223,101,1) 100%);
     font-size: 20px;
     color: #053939;
 }
