@@ -61,6 +61,7 @@ function showMovies(data) {
         }
       </div>
         `;
+    movieEl.addEventListener("click", () => openModal(movie.filmId))
     moviesEl.appendChild(movieEl);
   });
 }
@@ -79,9 +80,6 @@ form.addEventListener("submit", (e) => {
   }
 });
 
-
-
-/* НЕРАБОЧАЯ ФИЧА, ДОРАБОТАТЬ
 // Modal
 const modalEl = document.querySelector(".modal");
 
@@ -134,4 +132,3 @@ window.addEventListener("keydown", (e) => {
     closeModal();
   }
 })
-*/
